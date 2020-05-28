@@ -28,6 +28,26 @@ body {
     position: relative;
 }
 
+.left-box .product-container .product-image .image-thumbnail {
+    background-color: white;
+    color: black;
+    width: 120px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.left-box .product-container .product-image .image-thumbnail p {
+    margin-bottom: 0 !important;
+    font-size: 15px;
+}
+
+.left-box .product-container .product-image .image-thumbnail i {
+    position: absolute;
+    left: -20px;
+    top: 0px;
+}
+
 .left-box .product-container .product-image i {
     position: absolute;
     color: white;

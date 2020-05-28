@@ -131,7 +131,7 @@ body {
 }
 
 .right-box .product-detail-container .product-description .description-alert {
-    height: 170px;
+    height: 155px;
     overflow: auto;
 }
 
@@ -168,9 +168,11 @@ body {
 .right-box .product-detail-container .product-buttons .btn-pink {
     background-color: #EA4C89;
     color: white;
+    margin-top: 15px;
 }
 
 .right-box .product-detail-container .product-buttons .btn-gray {
     border: 1px solid gray;
     color: gray;
+    margin-top: 15px;
 }

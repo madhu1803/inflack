@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+/* ------------------------------------------------------left box ---------------------------------------------------------- */
+
+.col-6.left-box {
+    height: 100%;
+}
+
+.left-box .product-container {
+    width: 550px;
+    height: 75vh;
+    padding: 20px;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-box .product-container .product-image {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.left-box .product-container .product-image img {
+    height: 100%;
+    width: 510px;
+}
+
+.left-box .product-container .product-image-attachment {
+    height: 25%;
+    /* background-color: green; */
+    margin-bottom: 20px;
+}
+
+.left-box .product-container .product-image-attachment img {
+    height: 80px;
+    width: 120px;
+}
+
+.left-box .product-container .product-image-details {
+    height: 25%;
+    /* background-color: indianred; */
+    margin-bottom: 20px;
+}
+
+
+/* ------------------------------------------------------right box ---------------------------------------------------------- */

@@ -103,13 +103,15 @@ body {
 
 .right-box .product-detail-container .product-title p,
 .right-box .product-detail-container .product-tags p,
-.right-box .product-detail-container .suggested-tags p {
+.right-box .product-detail-container .suggested-tags p,
+.right-box .product-detail-container .product-description p {
     margin-bottom: 5px !important;
 }
 
 
 .right-box .product-detail-container .product-tags i,
-.right-box .product-detail-container .suggested-tags i {
+.right-box .product-detail-container .suggested-tags i,
+.right-box .product-detail-container .product-description i {
     color: gray;
 }
 
@@ -120,4 +122,9 @@ body {
 .right-box .product-detail-container .suggested-tags a {
     color: #4285F4;
     margin-right: 20px !important;
+}
+
+.right-box .product-detail-container .product-description .description-alert {
+    height: 160px;
+    overflow: auto;
 }

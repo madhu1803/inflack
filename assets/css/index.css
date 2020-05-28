@@ -89,4 +89,7 @@ body {
     width: 600px;
     position: relative;
     top: 50px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
 }

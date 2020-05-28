@@ -1,7 +1,7 @@
 body {
     height: 100%;
     background-color: #F5F5F5;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* ------------------------------------------------------left box ---------------------------------------------------------- */
@@ -101,13 +101,15 @@ body {
     background-color: #E3E3E3 !important;
     width: 500px;
     margin-bottom: 0 !important;
+    border: 2px solid lightgray;
 }
 
 .right-box .product-detail-container .product-title p,
 .right-box .product-detail-container .product-tags p,
 .right-box .product-detail-container .suggested-tags p,
 .right-box .product-detail-container .product-description p,
-.right-box .product-detail-container .product-extras p {
+.right-box .product-detail-container .product-extras p,
+.right-box .product-detail-container .product-settings p {
     margin-bottom: 5px !important;
 }
 
@@ -119,7 +121,8 @@ body {
 }
 
 .right-box .product-detail-container .suggested-tags {
-    width: 450px;
+    width: 480px;
+    font-size: 13px;
 }
 
 .right-box .product-detail-container .suggested-tags a {
@@ -128,13 +131,18 @@ body {
 }
 
 .right-box .product-detail-container .product-description .description-alert {
-    height: 140px;
+    height: 170px;
     overflow: auto;
 }
 
 .right-box .product-detail-container .product-extras button {
     width: 40%;
     padding: 15px;
+}
+
+.right-box .product-detail-container .product-settings label {
+    font-size: 15px;
+    margin-bottom: 0 !important;
 }
 
 .right-box .product-detail-container .product-buttons .btn-pink {

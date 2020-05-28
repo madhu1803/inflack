@@ -1,6 +1,7 @@
 body {
     height: 100%;
     background-color: #F5F5F5;
+    overflow: hidden;
 }
 
 /* ------------------------------------------------------left box ---------------------------------------------------------- */
@@ -99,6 +100,7 @@ body {
     padding: 8px !important;
     background-color: #E3E3E3 !important;
     width: 500px;
+    margin-bottom: 0 !important;
 }
 
 .right-box .product-detail-container .product-title p,
@@ -133,4 +135,14 @@ body {
 .right-box .product-detail-container .product-extras button {
     width: 40%;
     padding: 15px;
+}
+
+.right-box .product-detail-container .product-buttons .btn-pink {
+    background-color: #EA4C89;
+    color: white;
+}
+
+.right-box .product-detail-container .product-buttons .btn-gray {
+    border: 1px solid gray;
+    color: gray;
 }

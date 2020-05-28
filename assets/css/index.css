@@ -126,10 +126,11 @@ body {
 }
 
 .right-box .product-detail-container .product-description .description-alert {
-    height: 160px;
+    height: 155px;
     overflow: auto;
 }
 
 .right-box .product-detail-container .product-extras button {
     width: 40%;
+    padding: 15px;
 }

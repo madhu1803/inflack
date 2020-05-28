@@ -135,6 +135,26 @@ body {
     overflow: auto;
 }
 
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C2C2C2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #C2C2C2;
+}
+
 .right-box .product-detail-container .product-extras button {
     width: 40%;
     padding: 15px;

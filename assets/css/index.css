@@ -14,7 +14,7 @@ body {
     height: 75vh;
     padding: 20px;
     background-color: white;
-    position: fixed;
+    position: relative;
     top: 50px;
     left: 100px;
     display: flex;
@@ -22,8 +22,16 @@ body {
 }
 
 .left-box .product-container .product-image {
-    height: 50%;
+    height: 60%;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.left-box .product-container .product-image i {
+    position: absolute;
+    color: white;
+    right: 15px;
+    top: 10px;
 }
 
 .left-box .product-container .product-image img {
@@ -32,9 +40,15 @@ body {
 }
 
 .left-box .product-container .product-image-attachment {
-    height: 25%;
-    /* background-color: green; */
+    height: 20%;
+    position: relative;
     margin-bottom: 20px;
+}
+
+.left-box .product-container .product-image-attachment p {
+    margin-top: 10px !important;
+    margin-bottom: 8px !important;
+    font-size: 13px !important;
 }
 
 .left-box .product-container .product-image-attachment img {
@@ -42,11 +56,37 @@ body {
     width: 120px;
 }
 
+.left-box .product-container .product-image-attachment .close-icon {
+    position: absolute;
+    left: 115px;
+    top: 29px;
+}
+
 .left-box .product-container .product-image-details {
-    height: 25%;
-    /* background-color: indianred; */
+    height: 20%;
     margin-bottom: 20px;
 }
 
+.left-box .product-container .product-image-details p {
+    margin-bottom: 3px !important;
+    font-size: 13px;
+    color: gray !important;
+}
+
+/* .left-box .product-container .product-image-details button {
+    border-radius: 8px;
+} */
 
 /* ------------------------------------------------------right box ---------------------------------------------------------- */
+
+.col-6.right-box {
+    height: 100%;
+}
+
+.right-box .product-detail-container {
+    background: red;
+    height: 90vh;
+    width: 600px;
+    position: relative;
+    top: 50px;
+}

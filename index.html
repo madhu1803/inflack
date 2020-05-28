@@ -8,30 +8,42 @@
     <!--Bootstrap CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="assets/css/font_awesome.min.css">
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
     <div class="row">
+        <!-- left box -->
         <div class="col-6 left-box">
+            <!-- product container -->
             <div class="product-container">
+                <!-- product image -->
                 <div class="product-image">
+                    <i class="fas fa-ellipsis-h"></i>
                     <img src="assets/images/inflack.jpeg">
                 </div>
+                <!-- product image attachement -->
                 <div class="product-image-attachment">
-                    <p>2 attachement</p>
+                    <p class="text-muted"> <i class="fas fa-share-alt"></i> 2 ATTACHMENTS</p>
                     <img src="assets/images/inflack.jpeg">
+                    <i class="fas fa-times-circle close-icon"></i>
                 </div>
-                <div class="product-image-details">
-                    <p>infleck_logo</p>
-                    <button>choose file</button>
-                    <p>You can add upto 5 files</p>
+                <!-- product image details -->
+                <div class="product-image-details mt-2">
+                    <p><i class="fas fa-download"></i>infleck_logo<i class="fas fa-times-circle close-icon"></i></p>
+                    <button><small>choose files</small></button>
+                    <p class="text-muted">You can add upto 5 files</p>
                 </div>
             </div>
         </div>
+        <!--right box -->
         <div class="col-6 right-box">
+            <div class="product-detail-container">
 
+            </div>
         </div>
     </div>
     <!-- Bootstrap JS, Popper.js, and jQuery -->

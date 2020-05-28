@@ -35,18 +35,14 @@ body {
     position: absolute;
     top: 30px;
     right: 20px;
+    text-align: center;
 }
 
 .left-box .product-container .product-image .image-thumbnail p {
     margin-bottom: 0 !important;
-    font-size: 15px;
+    font-size: 13px;
 }
 
-.left-box .product-container .product-image .image-thumbnail i {
-    position: absolute;
-    left: -20px;
-    top: 0px;
-}
 
 .left-box .product-container .product-image i {
     position: absolute;
